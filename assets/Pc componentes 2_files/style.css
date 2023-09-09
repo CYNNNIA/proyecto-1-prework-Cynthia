@@ -1,0 +1,153 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+header img {
+  width: 10em;
+  justify-content: left;
+}
+.barras {
+  display: flex;
+}
+.lista-superior a {
+  text-decoration: none;
+  color: black;
+ margin: 10px;
+}
+.barra-dos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 40px ;
+  padding: 1em 3px;
+}
+main {
+  border-top: 1px solid black;
+}
+.lista-superior img {
+  width: 20px;
+}
+main > p {
+ font-weight: bold; 
+ margin: 20px 0 20px 30px;
+}
+main >p >span {
+  font-weight: lighter;
+}
+.banner {
+  width: 96%;
+  max-width: auto;
+  margin: 20px;
+
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+.galeria-enlaces div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+.galeria-enlaces p {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.galeria-enlaces img {
+  border-radius: 20px;
+  height: 20rem;
+  width: 20rem;
+}
+.iconos-promociones {
+  display: grid;
+  overflow-x: scroll;
+}
+.iconos-promociones div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  gap: 5em;
+  justify-content: center;
+  padding: 50px;
+}
+.iconos-promociones p {
+  display: flex;
+  justify-content: center;
+}
+.fondo-gris {
+  padding: 20px;
+  background-color: rgb(212, 207, 207);
+  width: 100%;
+  height: 450px;
+  
+  margin: 0 auto;
+}
+.caja-gris {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 2fr;
+}
+.reconectate {
+ margin: 20px;
+ padding: 20px;
+}
+.reconectate img {
+  width: 250px;
+  padding: 20px;
+}
+.boton {
+  display: flex;
+  background-color: rgb(241, 100, 6);
+  margin-left: 100px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size-adjust: inherit
+}
+.fondo-gris ul {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.caja-gris-derecha {
+  display: grid;
+  overflow-x: scroll;
+}
+.imagenes-gris div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+
+.imagenes-gris img {
+  width: 250px;
+  height: 300px;
+  border-radius: 7px;
+  
+}
+
+
